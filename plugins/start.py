@@ -9,14 +9,14 @@ async def start(client,message):
 	await message.reply_text(text =f"""
 	𝘏𝘦𝘭𝘭𝘰 👋 {message.from_user.first_name }
 	
-➠ 𝘐'𝘮 𝘈 𝘛𝘦𝘭𝘦𝘨𝘳𝘢𝘮 𝘍𝘪𝘭𝘦 🗃️ & 𝘝𝘪𝘥𝘦𝘰 📸 𝘙𝘦𝘯𝘢𝘮𝘦 𝘉𝘰𝘵.
+➠ 𝘐'𝘮 𝘈𝘍🥵.
 
-➠ 𝘐 𝘊𝘢𝘯 𝘙𝘦𝘯𝘢𝘮𝘦 ✍️ 𝘈𝘯𝘺 𝘍𝘪𝘭𝘦 🗃️ & 𝘝𝘪𝘥𝘦𝘰 📸 𝘞𝘪𝘵𝘩 𝘊𝘶𝘴𝘵𝘰𝘮 𝘛𝘩𝘶𝘮𝘣𝘯𝘢𝘪𝘭 𝘚𝘶𝘱𝘱𝘰𝘳𝘵.
+➠ 𝘐 𝘊𝘢𝘯 𝘙𝘦𝘯𝘢𝘮𝘦✍️ 𝘈𝘯𝘺 𝘍𝘪𝘭𝘦🗃️ & 𝘝𝘪𝘥𝘦𝘰📸 𝘞𝘪𝘵𝘩 𝘊𝘶𝘴𝘵𝘰𝘮 𝘛𝘩𝘶𝘮𝘣𝘯𝘢𝘪𝘭 𝘚𝘶𝘱𝘱𝘰𝘳𝘵 🤤.
        
-➠ 𝘔𝘢𝘪𝘯𝘵𝘢𝘪𝘯𝘦𝘥 𝘉𝘺 : @ERROR_404_V1
+➠ CREATOR : <a href=https://t.me/AF_KINGbot>AF</a>
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("⚠️ Support" ,url="https://t.me/Report_ToAdminbot") ]  ]))
+	 [[ InlineKeyboardButton("⚠️ Support On YOUTUBE" ,url="https://youtube.com/channel/UCJpGpk7DKk-xxhoiWWUR_Sw") ]  ]))
 
 
 @Client.on_message(filters.private &( filters.document | filters.audio | filters.video ))
