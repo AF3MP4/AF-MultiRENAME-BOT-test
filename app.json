@@ -6,7 +6,7 @@
         "Mongo DB"
     ],
     "repository": "https://github.com/im-vivektomar/RENAME-PRO",
-    "success_url": "https://t.me/Report_ToAdminbot",
+    "success_url": "https://t.me/AF_KINGbot",
     "env": {
         "APP_ID": {
             "description": "Your APP ID From my.telegram.org ",
